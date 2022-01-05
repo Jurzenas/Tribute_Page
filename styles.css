@@ -1,10 +1,17 @@
+
 #main{
   background-color: rgb(235, 235, 235);
   justify-content: center;
   align-items: center;
-  display: grid;
+  display: block;
   font-size: 17px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#title h1{
+  text-align: center;
+
 }
 
 header p{
@@ -25,7 +32,10 @@ header p{
   margin-bottom: 20px;
 }
 
-#img-div img{
+#img-div #image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 80%;
 }
 
